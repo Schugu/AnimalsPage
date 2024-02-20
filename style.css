@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Single Day', cursive;
+}
+
+/* Header */
+.header {
+    background-color: #f7cac9;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.tituloPagina {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.tituloPaginaImg {
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+}
+
+.linkHeader, .header__Nav{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.linkHeader__img {
+    padding: 5px;
+}
+
+.linkHeader:hover {
+    filter: invert(1);
+}
+
+
+
+
+/* Titulo de las cards */
+.tituloCards {
+    background-color: #f8edeb;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+.tituloCards__img {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+/* Contenedor de los contenedores de cartas */
+.cartasAnimales {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    background-color: #f8edeb;
+    perspective: 1000px; /* Define la perspectiva para el efecto 3D */
+    padding-bottom: 100px;
+}
+/* TODAS LAS CARTAS */
+.cardAnimales {
+    position: relative;
+    transform-style: preserve-3d; /* Indica que se preserve el efecto 3D */
+    transition: transform 0.9s; /* Agrega una transición suave para el efecto de volteo */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+}
+.cardAnimales:hover {
+    transform: rotateY(180deg); /* Rota la tarjeta hacia atrás al pasar el ratón por encima */
+}
+.cardAnimalesFront, .cardAnimalesBack {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden; /* Oculta la parte trasera de la tarjeta */
+}
+.cardAnimalesFront__img {
+    padding: 10px; 
+    border-radius: 20px;
+    width: 300px;
+    height: 200px;
+}
+.cardAnimalesFront__h2 {
+    padding-bottom: 35px;
+    text-decoration: none;
+    color: #f79a8e;
+    font-size: 30px;
+    text-shadow: 1px 1px 5px #fabfb7;
+}
+.cardAnimalesBack {
+    transform: rotateY(180deg); /* Inicia la parte trasera de la tarjeta oculta */
+}
+.linkCardAnimales {
+    text-decoration: none;
+    color: #fabfb7;
+    font-size: 30px;
+}
+.cardAnimalesBack__P {
+    color: black;
+    padding: 5px 15px;
+    text-align: justify;
+}
+
+
+/* FOOTER */
+.footer {
+    background-color: #c5c6c8;
+    width: 100%;
+    height: 50px;
+}
+.footerContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    font-size: 22px;
+}
+.linkFooter {
+    display: flex;
+    align-items: center;
+}
+.linkFooter__a {
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+}
+.linkFooter:hover {
+    border: 1px solid #000000;
+    background-color: #ddd;
+}
+.footer__p {
+    padding-left: 4px;
+}
+.footer__p:active {
+    background-color: #000000;
+}
+
+
+
+
+  
