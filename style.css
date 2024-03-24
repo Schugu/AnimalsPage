@@ -25,7 +25,6 @@
     height: 25px;
     margin-left: 20px;
 }
-
 .linkHeader, .header__Nav{
     text-decoration: none;
     color: black;
@@ -41,9 +40,6 @@
 .linkHeader:hover {
     filter: invert(1);
 }
-
-
-
 
 /* Titulo de las cards */
 .tituloCards {
@@ -121,7 +117,6 @@
     text-align: justify;
 }
 
-
 /* FOOTER */
 .footer {
     background-color: #c5c6c8;
@@ -153,9 +148,3 @@
 .footer__p {
     padding-left: 4px;
 }
-
-
-
-
-
-  
