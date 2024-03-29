@@ -80,6 +80,7 @@
     box-shadow: 1px 1px 5px black;
     border-radius: 10px;
     background-color: #f2f2f2;
+    cursor: pointer;
 }
 .cardAnimales.clicked {
     transform: rotateY(180deg); /* Rota la tarjeta hacia atrás al pasar el ratón por encima */
