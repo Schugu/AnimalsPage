@@ -30,9 +30,9 @@ Sigue estos pasos para clonar y ejecutar el proyecto localmente:
 
 ------------
 ### Animación 🎞️
-<img src='gif.gif' alt='CapturaDePantalla'>
+<img src='capturaDePantalla1.gif' alt='CapturaDePantalla'>
 
 ### Capturas de pantalla 📸
-<img src='capturaDePantalla1.png' alt='CapturaDePantalla1'>
-<img src='capturaDePantalla2.png' alt='CapturaDePantalla2'>
+<img src='capturaDePantalla2.png' alt='CapturaDePantalla1'>
+<img src='capturaDePantalla3.png' alt='CapturaDePantalla2'>
 
