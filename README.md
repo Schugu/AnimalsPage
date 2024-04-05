@@ -29,8 +29,11 @@ Sigue estos pasos para clonar y ejecutar el proyecto localmente:
 5. Si deseas modificar o entender cómo funciona la página, te recomendamos revisar el archivo `app.js`. Este archivo contiene el código JavaScript que genera las cards.
 
 ------------
+
 ### Animación 🎞️
 <img src='Media/screenshots/capturaDePantalla1.gif' alt='CapturaDePantalla'>
+
+------------
 
 ### Capturas de pantalla 📸
 <img src='Media/screenshots/capturaDePantalla2.png' alt='CapturaDePantalla1'>
