@@ -1,6 +1,6 @@
 'use strict'
 
-function crearCardAnimal(nombreClase, imagenSrc, nombreAnimal, link, parrafo) {
+function crearCardAnimal(imagenSrc, nombreAnimal, link, parrafo) {
     // Crear el contenedor de la tarjeta del animal
     const cardContainer = document.createElement('div');
     cardContainer.classList.add('cardContainer');
@@ -17,7 +17,7 @@ function crearCardAnimal(nombreClase, imagenSrc, nombreAnimal, link, parrafo) {
     const imagen = document.createElement('img');
     imagen.classList.add('cardAnimalesFront__img');
     imagen.src = imagenSrc;
-    imagen.alt = '';
+    imagen.alt = nombreAnimal;
 
     // Crear el título del animal como un encabezado
     const titulo = document.createElement('h2');
@@ -70,8 +70,7 @@ function crearTarjetas(informacion) {
 
     // Agregar las tarjetas de animales al contenedor
     informacion.forEach(animal => {
-        const nombreClase = animal.nombre.toLowerCase().replace(/\s+/g, '_'); // Utilizamos el nombre del animal en minúsculas como clase
-        const tarjeta = crearCardAnimal(nombreClase, animal.imagen, animal.nombre, animal.link, animal.parrafo);
+        const tarjeta = crearCardAnimal(animal.imagen, animal.nombre, animal.link, animal.parrafo);
         contenedorAnimales.appendChild(tarjeta);
     });
 
@@ -79,25 +78,19 @@ function crearTarjetas(informacion) {
     return contenedorAnimales;
 }
 
-document.addEventListener("DOMContentLoaded", function() {
-    // Obtener el contenedor de las cartas de animales
-    const contenedorAnimales = document.querySelector('.cartasAnimales');
+// Obtener el contenedor de las cartas de animales
+const contenedorAnimales = document.querySelector('.cartasAnimales');
 
-    // Crear las tarjetas de animales y agregarlas al contenedor
-    const fragmentoTarjetas = crearTarjetas(informacion);
-    contenedorAnimales.appendChild(fragmentoTarjetas);
+// Crear las tarjetas de animales y agregarlas al contenedor
+const fragmentoTarjetas = crearTarjetas(informacion);
+contenedorAnimales.appendChild(fragmentoTarjetas);
 
-    // Agregar evento de clic a las tarjetas para el efecto de volteo
-    var cards = document.querySelectorAll(".cardAnimales");
+// Agregar evento de clic a las tarjetas para el efecto de volteo
+var cards = document.querySelectorAll(".cardAnimales");
 
-    // Agregar evento de clic a cada tarjeta
-    cards.forEach(function(card) {
-        card.addEventListener("click", function() {
-            card.classList.toggle("clicked");
-        });
+// Agregar evento de clic a cada tarjeta
+cards.forEach(function(card) {
+    card.addEventListener("click", function() {
+        card.classList.toggle("clicked");
     });
 });
-
-
-
-
