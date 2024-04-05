@@ -33,6 +33,6 @@ Sigue estos pasos para clonar y ejecutar el proyecto localmente:
 <img src='gif.gif' alt='CapturaDePantalla'>
 
 ### Capturas de pantalla 📸
-<img src='capturaDePantall1.png' alt='CapturaDePantalla1'>
+<img src='capturaDePantalla1.png' alt='CapturaDePantalla1'>
 <img src='capturaDePantalla2.png' alt='CapturaDePantalla2'>
 
