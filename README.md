@@ -1,6 +1,6 @@
 <h1 align='center'>🌟 Página sobre animales 🐾🌟</h1>
 
-> Practica de HTML, CSS y JavaScript. ✨
+> Practica de HTML, CSS, JavaScript y React. ✨
 
 🎯 Objetivo: Crear una página que contenga tarjetas interactivas de animales.
 
