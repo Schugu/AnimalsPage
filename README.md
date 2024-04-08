@@ -41,9 +41,9 @@ Sigue estos pasos para clonar y ejecutar el proyecto localmente:
 
 5. Una vez que el servidor de desarrollo esté en funcionamiento, abre tu navegador web y navega a la IP que se muestra en consola para ver el proyecto en acción.
 
-4. Si deseas personalizar los estilos de la página, puedes hacerlo modificando los archivos CSS ubicados en la carpeta `complementos`. Cada componente tiene su propio archivo CSS asociado que contiene las reglas de estilo específicas para ese componente. Abre el archivo CSS correspondiente en un editor de texto o IDE de tu elección, realiza los cambios que desees y guarda el archivo. Luego, asegúrate de importar el archivo CSS adecuado en el archivo JSX correspondiente para que los estilos se apliquen correctamente. Finalmente, recarga la página en tu navegador para ver los cambios aplicados.
+6. Si deseas personalizar los estilos de la página, puedes hacerlo modificando los archivos CSS ubicados en la carpeta `components`. Cada componente tiene su propio archivo CSS asociado que contiene las reglas de estilo específicas para ese componente. Abre el archivo CSS correspondiente en un editor de texto o IDE de tu elección, realiza los cambios que desees y guarda el archivo. Luego, asegúrate de importar el archivo CSS adecuado en el archivo JSX correspondiente para que los estilos se apliquen correctamente. Finalmente, recarga la página en tu navegador para ver los cambios aplicados.
 
-5. Si deseas modificar o entender cómo funciona un componente específico, te recomendamos revisar el archivo JSX correspondiente ubicado en la carpeta `complementos`. Cada componente tiene su propio archivo JSX que contiene el código React que genera ese componente en particular. Analiza el código en el archivo JSX para entender su funcionamiento o realizar modificaciones según sea necesario.
+7. Si deseas modificar o entender cómo funciona un componente específico, te recomendamos revisar el archivo JSX correspondiente ubicado en la carpeta `components`. Cada componente tiene su propio archivo JSX que contiene el código React que genera ese componente en particular. Analiza el código en el archivo JSX para entender su funcionamiento o realizar modificaciones según sea necesario.
 
 ------------
 
