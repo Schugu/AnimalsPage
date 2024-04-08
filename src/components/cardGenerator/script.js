@@ -85,6 +85,10 @@ const contenedorAnimales = document.querySelector('.cartasAnimales');
 const fragmentoTarjetas = crearTarjetas(informacion);
 contenedorAnimales.appendChild(fragmentoTarjetas);
 
+
+
+
+
 // Agregar evento de clic a las tarjetas para el efecto de volteo
 var cards = document.querySelectorAll(".cardAnimales");
 

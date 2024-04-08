@@ -1,46 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Single Day', cursive;
-}
-
-/* Header */
-.header {
-    background-color: #f7cac9;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-}
-.tituloPagina {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-.tituloPaginaImg {
-    width: 25px;
-    height: 25px;
-    margin-left: 20px;
-}
-.linkHeader, .header__Nav{
-    text-decoration: none;
-    color: black;
-    font-size: 25px;
-    display: flex;
-    align-items: center;
-    padding-left: 10px;
-}
-.linkHeader__img {
-    padding: 5px;
-}
-
-.linkHeader:hover {
-    filter: invert(1);
-}
-
 /* Titulo de las cards */
 .tituloCards {
     background-color: #f8edeb;
@@ -115,40 +72,12 @@
     color: #fabfb7;
     font-size: 30px;
 }
+.linkCardAnimales:hover {
+    text-shadow: 1px 1px 2px black;
+}
 .cardAnimalesBack__P {
     color: black;
     padding: 5px 15px;
     text-align: justify;
 }
 
-/* FOOTER */
-.footer {
-    background-color: #c5c6c8;
-    width: 100%;
-    height: 50px;
-}
-.footerContent {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: 100%;
-    height: 50px;
-    align-items: center;
-    font-size: 22px;
-}
-.linkFooter {
-    display: flex;
-    align-items: center;
-}
-.linkFooter__a {
-    text-decoration: none;
-    color: black;
-    padding: 4px;
-}
-.linkFooter:hover {
-    border: 1px solid #000000;
-    background-color: #ddd;
-}
-.footer__p {
-    padding-left: 4px;
-}

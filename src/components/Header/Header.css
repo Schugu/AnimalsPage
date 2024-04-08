@@ -1,0 +1,35 @@
+/* Header */
+.header {
+    background-color: #f7cac9;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.tituloPagina {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.tituloPaginaImg {
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+}
+.linkHeader, .header__Nav{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.linkHeader__img {
+    padding: 5px;
+}
+
+.linkHeader:hover {
+    filter: invert(1);
+}

@@ -1,71 +1,16 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" type="image/svg+xml" href="src/assets/Iguana.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Animales</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="Media/Iguana.png"/>
-</head>
-<body>
-    <header class="header" id="header">
-        <a class="linkHeader" href="">
-            <img class="linkHeader__img" src="Media/HomeIco.svg" alt="">
-            Inicio
-        </a>
-        <div class="tituloPagina">
-            <H1 class="tituloPagina">Animales</H1>
-            <img class="tituloPaginaImg" src="Media/Patita.png" alt="">
-        </div>
-        <nav class="header__Nav">
-            <a href="" class="linkHeader">
-                <img class="linkHeader__img" src="Media/GrupoIco.svg" alt="">
-                Sobre nosotros
-            </a>
-            <a href="" class="linkHeader">
-                <img class="linkHeader__img" src="Media/AgregarPersonaIco.svg" alt="">
-                Registrarse
-            </a>
-            <a href="" class="linkHeader">
-                <img class="linkHeader__img" src="Media/account_circle_.svg" alt="">
-                Acceder
-            </a>
-        </nav>
-    </header>
-
-    <main class="main">
-        <div class="tituloCards">
-            <div class="tituloCards">
-                <H2 class="tituloCards__h2">ELIGE UN ANIMAL</H1>
-                <img class="tituloCards__img" src="Media/Iguana.png" alt="">
-            </div>
-        </div>
-        <div class="cartasAnimales"></div>
-    </main>
-
-    <footer class="footer">
-        <div class="footerContent">
-            <div class="linkFooter">
-                <img class="linkFooter__img" src="Media/CopyrightIco.svg" alt="">
-                <p class="footer__p">Copyright - Todos los derechos reservados</p>
-            </div>
-
-            <div class="linkFooter">
-                <img class="linkFooter__img" src="Media/ContactIco.svg" alt="">
-                <a href="https://www.instagram.com/leanschugu/" target="_blank" rel="nofollow" class="linkFooter__a">Contacto</a>
-            </div>
-
-            <div class="linkFooter">
-                <img class="linkFooter__img" src="Media/HomeIco.svg" alt="">
-                <a class="linkFooter__a" href="#header">Inicio</a>      
-            </div>           
-        </div>
-    </footer>
-
-    <script src="animales.js"></script>
-    <script src="script.js" defer></script>
-</body>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
