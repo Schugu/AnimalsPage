@@ -31,11 +31,11 @@ Sigue estos pasos para clonar y ejecutar el proyecto localmente:
 ------------
 
 ### Animación 🎞️
-<img src='Media/screenshots/capturaDePantalla1.gif' alt='CapturaDePantalla'>
+<img src='Public/screenshots/capturaDePantalla1.gif' alt='CapturaDePantalla'>
 
 ------------
 
 ### Capturas de pantalla 📸
-<img src='Media/screenshots/capturaDePantalla2.png' alt='CapturaDePantalla1'>
-<img src='Media/screenshots/capturaDePantalla3.png' alt='CapturaDePantalla2'>
+<img src='Public/screenshots/capturaDePantalla2.png' alt='CapturaDePantalla1'>
+<img src='Public/screenshots/capturaDePantalla3.png' alt='CapturaDePantalla2'>
 
