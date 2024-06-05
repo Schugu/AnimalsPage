@@ -4,6 +4,7 @@ type CardProps = {
   nombre: string;
   link: string;
   parrafo: string;
+  key: string;
 }
 
 export default function Card({ nombre, link, parrafo }: CardProps) {
@@ -24,11 +25,11 @@ export default function Card({ nombre, link, parrafo }: CardProps) {
       </div>
 
       <div className={`w-full h-full p-2.5 flex flex-col gap-2 items-center justify-between ${!isHidden ? 'hidden' : ''}`}>
-        <a className="text-[#f79a8e] text-2xl hover:shadow" href={link} target="_blank">
-          <p>{nombre}</p>
+        <a className="w-full text-[#f79a8e] text-2xl hover:bg-red-50 rounded" href={link} target="_blank">
+          <p className="border-b-2 border-gray-700">{nombre}</p>
         </a>
 
-        <p className="text-black">
+        <p className="text-black overflow-auto">
           {parrafo}
         </p>
       </div>
