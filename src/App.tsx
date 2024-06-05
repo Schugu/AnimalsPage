@@ -17,7 +17,7 @@ export default function App() {
         <section className="flex flex-wrap justify-center gap-14">
           {
             infoAnimals.map((animal:InfoAnimal) => (
-              <Card nombre={animal.nombre} link={animal.link} parrafo={animal.parrafo}/>
+              <Card nombre={animal.nombre} link={animal.link} parrafo={animal.parrafo} key={animal.nombre}/>
             ))
           }
         </section>
